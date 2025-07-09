@@ -1,7 +1,10 @@
 from pydantic import BaseModel
-from typing import Optional
-import uuid
+from typing import List, Optional
+
+class ChatMessage(BaseModel):
+    role: str
+    content: str
 
 class ChatRequest(BaseModel):
     query: str
-    session_id: Optional[str] = None
+    history: List[ChatMessage] = []

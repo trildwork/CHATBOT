@@ -1,9 +1,14 @@
 from typing import List
 
 from langchain.chains import ConversationalRetrievalChain
+from langchain.chains.llm import LLMChain
+from langchain.chains.question_answering import load_qa_chain
 from langchain.chains.router.llm_router import LLMRouterChain, RouterOutputParser
 from langchain.chains.router.multi_prompt_prompt import MULTI_PROMPT_ROUTER_TEMPLATE
 from langchain.memory import ConversationBufferMemory
+from schemas.common import ChatMessage
+from langchain.schema import HumanMessage, AIMessage
+from langchain.prompts import PromptTemplate
 from langchain_core.documents import Document
 from langchain_core.retrievers import BaseRetriever
 from langchain_mongodb import MongoDBAtlasVectorSearch
@@ -11,8 +16,6 @@ from langchain_mongodb import MongoDBAtlasVectorSearch
 from core.db import db
 from core.llm import embedding_model, llm
 
-# Dictionary để lưu memory cho mỗi session
-chat_histories = {}
 
 
 class MultiSourceRetriever(BaseRetriever):
@@ -32,7 +35,7 @@ class MultiSourceRetriever(BaseRetriever):
             return []
 
 
-def get_conversational_rag_chain(session_id: str):
+def get_conversational_rag_chain(history: List[ChatMessage]):
     vs_jobs = MongoDBAtlasVectorSearch(
         collection=db["jobs_vector"],
         embedding=embedding_model,
@@ -64,7 +67,6 @@ def get_conversational_rag_chain(session_id: str):
         }
     ]
 
-    from langchain.prompts import PromptTemplate
     router_template = MULTI_PROMPT_ROUTER_TEMPLATE.format(
         destinations="\n".join(
             [f'{r["name"]}: {r["description"]}' for r in retriever_infos])
@@ -85,40 +87,18 @@ def get_conversational_rag_chain(session_id: str):
         llm_chain=router_chain
     )
 
-    if session_id not in chat_histories:
-        chat_histories[session_id] = ConversationBufferMemory(
-            memory_key="chat_history", return_messages=True, output_key='answer'
-        )
-    memory = chat_histories[session_id]
-
-    qa_template = """Bạn là "CareerConnect AI", một trợ lý tuyển dụng ảo thông minh và chuyên nghiệp.
-    Nhiệm vụ của bạn là hỗ trợ người dùng về các vấn đề liên quan đến tuyển dụng, chính sách công ty và hướng dẫn sử dụng website.
-    Sử dụng những đoạn ngữ cảnh được cung cấp dưới đây để trả lời câu hỏi của người dùng một cách chính xác và chi tiết.
-    Nếu ngữ cảnh không chứa thông tin cần thiết để trả lời, hãy lịch sự nói rằng: "Tôi chưa có thông tin về vấn đề này. Bạn có thể hỏi câu khác được không?".
-    Tuyệt đối không được bịa đặt thông tin. Luôn trả lời bằng tiếng Việt.
-
-    NGỮ CẢNH:
-    ---
-    {context}
-    ---
-
-    CÂU HỎI: {question}
-
-    TRẢ LỜI:"""
-    QA_PROMPT = PromptTemplate(template=qa_template, input_variables=["context", "question"])
-    
-    from langchain.chains.llm import LLMChain
-    from langchain.chains.combine_documents.stuff import StuffDocumentsChain
-
-    llm_chain = LLMChain(llm=llm, prompt=QA_PROMPT)
-    combine_docs_chain = StuffDocumentsChain(
-        llm_chain=llm_chain, document_variable_name="context"
+    memory = ConversationBufferMemory(
+        memory_key="chat_history", return_messages=True, output_key='answer'
     )
-    from langchain.prompts import PromptTemplate
-    _template = """
-    Bạn là một trợ lý AI tuyển dụng chuyên nghiệp và thân thiện của CareerConnect. Hãy luôn trả lời bằng tiếng Việt.
+    for msg in history:
+        if msg.role == "user":
+            memory.chat_memory.add_message(HumanMessage(content=msg.content))
+        elif msg.role == "assistant":
+            memory.chat_memory.add_message(AIMessage(content=msg.content))
 
-Với lịch sử trò chuyện sau đây và một câu hỏi theo sau, hãy diễn đạt lại câu hỏi đó thành một câu hỏi độc lập.
+    # 1. Create question_generator chain
+    _template = """Với lịch sử trò chuyện sau đây và một câu hỏi theo sau, hãy diễn đạt lại câu hỏi đó thành một câu hỏi độc lập.
+Bạn là một trợ lý AI tuyển dụng chuyên nghiệp và thân thiện của CareerConnect. Hãy luôn trả lời bằng tiếng Việt.
 
 Lịch sử trò chuyện:
 {chat_history}
@@ -126,22 +106,42 @@ Lịch sử trò chuyện:
 Câu hỏi theo sau: {question}
 Câu hỏi độc lập:"""
     CONDENSE_QUESTION_PROMPT = PromptTemplate.from_template(_template)
+    question_generator = LLMChain(llm=llm, prompt=CONDENSE_QUESTION_PROMPT)
 
-    chain = ConversationalRetrievalChain.from_llm(
-        llm=llm,
+    # 2. Create combine_docs_chain
+    qa_template = """
+    Bạn là "CareerConnect AI", một trợ lý tuyển dụng ảo thông minh và chuyên nghiệp.
+Nhiệm vụ của bạn là hỗ trợ người dùng về các vấn đề liên quan đến tuyển dụng, chính sách công ty và hướng dẫn sử dụng website.
+Sử dụng những đoạn ngữ cảnh được cung cấp dưới đây để trả lời câu hỏi của người dùng một cách chính xác và chi tiết.
+Nếu ngữ cảnh không chứa thông tin cần thiết để trả lời, hãy lịch sự nói rằng: "Tôi chưa có thông tin về vấn đề này. Bạn có thể hỏi câu khác được không?".
+Tuyệt đối không được bịa đặt thông tin. Luôn trả lời bằng tiếng Việt.
+
+NGỮ CẢNH:
+---
+{context}
+---
+
+CÂU HỎI: {question}
+
+TRẢ LỜI:"""
+    QA_PROMPT = PromptTemplate(template=qa_template, input_variables=[
+                               "context", "question"])
+    combine_docs_chain = load_qa_chain(
+        llm, chain_type="stuff", prompt=QA_PROMPT)
+
+    # 3. Khởi tạo ConversationalRetrievalChain trực tiếp
+    chain = ConversationalRetrievalChain(
         retriever=multi_retriever,
+        question_generator=question_generator,
+        combine_docs_chain=combine_docs_chain,
         memory=memory,
-        # condense_question_prompt=CONDENSE_QUESTION_PROMPT,
         verbose=True,
-        question_generator=LLMChain(llm=llm, prompt=CONDENSE_QUESTION_PROMPT), # Cung cấp question_generator
-        combine_docs_chain=combine_docs_chain, # Cung cấp combine_docs_chain
-
         return_source_documents=True
     )
     return chain
 
 
-def process_query(query: str, session_id: str) -> str:
-    chain = get_conversational_rag_chain(session_id)
+def process_query(query: str, history: List[ChatMessage]) -> str:
+    chain = get_conversational_rag_chain(history)
     result = chain.invoke({"question": query})
     return result.get("answer", "Lỗi xử lý.")
