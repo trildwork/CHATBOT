@@ -125,7 +125,7 @@ def upsert_job(job: JobPayload):
         documents=documents,
         embedding=embedding_model,
         collection=jobs_collection,
-        index_name="default"  # Đảm bảo index name là đúng
+        index_name="jobs_vector_index"  # Đảm bảo index name là đúng
     )
     print(f"  - Đã thêm {len(documents)} chunk mới cho job_id: {job_id}")
 

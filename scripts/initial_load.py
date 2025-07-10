@@ -97,7 +97,7 @@ def load_jobs():
         documents=enriched_job_docs,
         embedding=embedding_model,
         collection=jobs_collection,
-        index_name="default"
+        index_name="jobs_vector_index"
     )
     print(f"Đã nạp {len(enriched_job_docs)} jobs đã được làm giàu metadata.")
 

@@ -99,7 +99,7 @@ def get_retriever(job_filters: Optional[JobFilters] = None):
 
     # Xây dựng pre_filter cho MongoDB
     # Điều kiện mặc định: job phải còn hạn
-    mongo_filter = {"metadata.deadline": {"$gte": current_time_iso}}
+    mongo_filter = {"deadline": {"$gte": current_time_iso}}
 
     vs_jobs = MongoDBAtlasVectorSearch(
         collection=db["jobs_vector"],
@@ -121,7 +121,8 @@ def get_retriever(job_filters: Optional[JobFilters] = None):
     # Phần còn lại của hàm giữ nguyên...
     vs_policies = MongoDBAtlasVectorSearch(
         # Sửa index name
-        collection=db["policies_vector"], embedding=embedding_model, index_name="default")
+        collection=db["policies_vector"], embedding=embedding_model, index_name="policies_vector_index"
+    )
     policies_retriever = vs_policies.as_retriever(search_kwargs={'k': 3})
 
     retriever_infos = [
