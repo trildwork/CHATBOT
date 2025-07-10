@@ -1,5 +1,500 @@
-This is the company policies document.
+**BỘ CHÍNH SÁCH CHÍNH THỨC CỦA WEBSITE CAREERZONE**
 
-1.  All employees must respect each other.
-2.  Working hours are from 9 AM to 5 PM.
-3.  ...
+**Phần I: Quy định Chung về Sử dụng Nền tảng và Dịch vụ CareerZone (Khoảng 30 mục/chính sách chi tiết)**
+
+1.  **Điều khoản Sử dụng Dịch vụ CareerZone:**
+    *   **Phạm vi áp dụng:** Các điều khoản này điều chỉnh việc truy cập và sử dụng toàn bộ nền tảng CareerZone, bao gồm website, ứng dụng di động và bất kỳ dịch vụ liên quan nào do CareerZone cung cấp.
+    *   **Chấp thuận Điều khoản:** Người dùng (bao gồm cả Ứng viên và Nhà Tuyển dụng) xác nhận rằng họ đã đọc, hiểu và đồng ý bị ràng buộc bởi các Điều khoản Sử dụng này, kể cả bất kỳ sửa đổi nào trong tương lai.
+    *   **Mô tả Dịch vụ:** CareerZone là một nền tảng kỹ thuật số nhằm mục đích kết nối các cá nhân tìm kiếm cơ hội việc làm với các tổ chức đang có nhu cầu tuyển dụng. CareerZone không phải là một bên trong các giao dịch lao động trực tiếp giữa Ứng viên và Nhà Tuyển dụng.
+    *   **Trách nhiệm của Người dùng:** Người dùng có trách nhiệm đảm bảo tính chính xác, trung thực của thông tin cá nhân, hồ sơ ứng viên, tin tuyển dụng và mọi nội dung khác mà họ đăng tải hoặc cung cấp.
+    *   **Quyền của CareerZone:** CareerZone có quyền từ chối cung cấp dịch vụ, tạm khóa, đình chỉ hoặc chấm dứt quyền truy cập của bất kỳ người dùng nào nếu vi phạm các Điều khoản này mà không cần thông báo trước hoặc chịu trách nhiệm.
+    *   **Tuân thủ Pháp luật:** Người dùng cam kết tuân thủ tất cả các luật pháp hiện hành liên quan đến việc sử dụng nền tảng, bao gồm luật lao động, luật sở hữu trí tuệ và các quy định về bảo vệ dữ liệu cá nhân.
+    *   **Sửa đổi Điều khoản:** CareerZone bảo lưu quyền sửa đổi, bổ sung hoặc thay thế bất kỳ phần nào của Điều khoản Sử dụng này vào bất kỳ thời điểm nào. Việc tiếp tục sử dụng nền tảng sau khi có thay đổi sẽ được coi là chấp nhận các sửa đổi đó.
+    *   **Luật Điều chỉnh:** Mọi tranh chấp phát sinh từ hoặc liên quan đến các Điều khoản Sử dụng này sẽ được điều chỉnh và giải thích theo pháp luật của nước Cộng hòa Xã hội Chủ nghĩa Việt Nam.
+    *   **Trách nhiệm Pháp lý:** CareerZone không chịu trách nhiệm về bất kỳ thiệt hại trực tiếp, gián tiếp, ngẫu nhiên, đặc biệt hoặc mang tính hậu quả nào phát sinh từ việc sử dụng hoặc không thể sử dụng nền tảng.
+
+2.  **Quy định Dành riêng cho Ứng viên:**
+    *   **Tạo và Quản lý Hồ sơ:** Ứng viên chịu trách nhiệm duy trì tính chính xác, cập nhật và đầy đủ của hồ sơ cá nhân, kinh nghiệm làm việc, kỹ năng và thông tin liên hệ.
+    *   **Ứng tuyển:** Việc ứng tuyển chỉ được thực hiện thông qua các chức năng được cung cấp trên nền tảng. Ứng viên không được gửi hồ sơ trực tiếp cho CareerZone để chuyển tiếp.
+    *   **Bảo mật Tài khoản:** Ứng viên có trách nhiệm bảo mật thông tin đăng nhập (tên người dùng, mật khẩu) và chịu trách nhiệm cho mọi hoạt động diễn ra dưới tài khoản của mình.
+    *   **Tuân thủ trong Giao tiếp:** Ứng viên phải duy trì thái độ tôn trọng, chuyên nghiệp khi giao tiếp với Nhà Tuyển dụng thông qua nền tảng.
+    *   **Phản hồi Nhà Tuyển dụng:** Ứng viên có thể cung cấp phản hồi về trải nghiệm ứng tuyển, nhưng không được đăng các đánh giá không có căn cứ hoặc mang tính xúc phạm.
+
+3.  **Quy định Dành riêng cho Nhà Tuyển dụng:**
+    *   **Đăng tin Tuyển dụng:** Tin tuyển dụng phải mô tả chính xác vị trí, yêu cầu, quyền lợi và thông tin công ty. Nghiêm cấm việc đăng tin tuyển dụng giả mạo, gây hiểu lầm, phân biệt đối xử hoặc vi phạm pháp luật.
+    *   **Tìm kiếm Hồ sơ:** Nhà Tuyển dụng chỉ được phép truy cập và xem hồ sơ Ứng viên phù hợp với mục đích tuyển dụng hợp pháp và phải tuân thủ Chính sách Bảo mật Thông tin Cá nhân.
+    *   **Gửi Lời mời Ứng tuyển:** Mọi lời mời ứng tuyển hoặc liên lạc với Ứng viên phải được thực hiện thông qua các kênh chính thức của CareerZone và tuân thủ các quy tắc giao tiếp.
+    *   **Bảo mật Thông tin Ứng viên:** Nhà Tuyển dụng cam kết bảo mật mọi thông tin cá nhân, hồ sơ và dữ liệu liên quan đến Ứng viên mà họ tiếp cận được.
+    *   **Trách nhiệm Xác minh:** CareerZone khuyến khích Nhà Tuyển dụng thực hiện các biện pháp xác minh ứng viên phù hợp trước khi đưa ra quyết định tuyển dụng cuối cùng.
+
+4.  **Quy định Sử dụng Dịch vụ Đăng Tin Tuyển dụng:**
+    *   **Nội dung Tin Tuyển dụng:** Phải tuân thủ các tiêu chuẩn về tính chính xác, minh bạch, không phân biệt đối xử, không vi phạm pháp luật và không chứa nội dung quảng cáo không liên quan đến việc tuyển dụng.
+    *   **Phân loại và Danh mục:** Tin tuyển dụng phải được phân loại chính xác theo ngành nghề, địa điểm, cấp bậc và loại hình công việc.
+    *   **Gia hạn và Sửa đổi:** Nhà Tuyển dụng có thể gia hạn hoặc sửa đổi tin tuyển dụng theo quy trình và chính sách hiện hành của CareerZone.
+    *   **Xử lý Tin Tuyển dụng Vi phạm:** CareerZone có quyền từ chối đăng, tạm dừng hoặc gỡ bỏ bất kỳ tin tuyển dụng nào vi phạm các quy định này mà không cần thông báo trước.
+
+5.  **Quy định Sử dụng Dịch vụ Tìm kiếm Hồ sơ Ứng viên:**
+    *   **Tiêu chí Tìm kiếm:** Nhà Tuyển dụng có thể sử dụng các bộ lọc để tìm kiếm hồ sơ dựa trên các tiêu chí như kỹ năng, kinh nghiệm, trình độ học vấn, địa điểm.
+    *   **Quyền Truy cập:** Việc xem chi tiết hồ sơ Ứng viên chỉ được phép khi Nhà Tuyển dụng có tài khoản hợp lệ và tuân thủ các điều khoản về bảo mật.
+    *   **Mục đích Sử dụng:** Hồ sơ Ứng viên chỉ được sử dụng cho mục đích tuyển dụng trực tiếp và không được chia sẻ với bên thứ ba dưới bất kỳ hình thức nào.
+
+6.  **Quy định Sử dụng Dịch vụ Nâng cao (Premium/Featured Jobs):**
+    *   **Mô tả Dịch vụ:** Chi tiết các tính năng bổ sung (ví dụ: hiển thị nổi bật, ghim đầu trang, tăng lượt xem) và lợi ích mà các dịch vụ này mang lại.
+    *   **Chi phí và Thanh toán:** Các mức phí cụ thể cho từng dịch vụ nâng cao và các phương thức thanh toán được chấp nhận.
+    *   **Thời hạn và Hiệu lực:** Thời gian áp dụng của các dịch vụ nâng cao và các điều kiện để chúng được kích hoạt.
+
+7.  **Quy định Sử dụng Dịch vụ Tài khoản Doanh nghiệp:**
+    *   **Thiết lập Tài khoản:** Quy trình đăng ký và xác minh tài khoản cho các doanh nghiệp.
+    *   **Quản lý Người dùng Doanh nghiệp:** Quyền và trách nhiệm của các quản trị viên tài khoản doanh nghiệp trong việc cấp quyền cho các nhân viên khác.
+    *   **Sử dụng Thương hiệu Công ty:** Quy định về việc sử dụng logo, tên công ty và mô tả doanh nghiệp một cách chính xác và phù hợp.
+
+8.  **Quy định Sử dụng Tính năng Gửi Lời mời Ứng tuyển:**
+    *   **Thành phần Lời mời:** Yêu cầu thông tin cần thiết trong một lời mời ứng tuyển (ví dụ: tên chức danh, địa điểm, lý do mời).
+    *   **Kênh Gửi:** Lời mời phải được gửi qua hệ thống của CareerZone để đảm bảo theo dõi và bảo mật.
+    *   **Giới hạn Số lượng/Tần suất:** Có thể áp dụng giới hạn để tránh việc lạm dụng gửi lời mời hàng loạt.
+
+9.  **Quy định Sử dụng Tính năng Lưu/Theo dõi Việc làm:**
+    *   **Chức năng:** Cho phép Ứng viên lưu lại các tin tuyển dụng quan tâm để xem lại sau.
+    *   **Quản lý Danh sách Lưu:** Ứng viên có thể xem, xóa hoặc hủy theo dõi các việc làm đã lưu.
+
+10. **Quy định Sử dụng Tính năng Tạo và Quản lý Hồ sơ Ứng viên:**
+    *   **Thông tin Bắt buộc:** Các trường thông tin tối thiểu cần có để hồ sơ có thể hoạt động.
+    *   **Tùy chọn Hiển thị/Riêng tư:** Cho phép Ứng viên kiểm soát việc ai có thể xem hồ sơ của họ (công khai, chỉ cho Nhà Tuyển dụng đã kết nối, ẩn).
+    *   **Cập nhật Dữ liệu:** Khuyến khích Ứng viên thường xuyên cập nhật hồ sơ để phản ánh đúng năng lực và kinh nghiệm hiện tại.
+
+11. **Quy định Sử dụng Tính năng Tìm kiếm và Xem Hồ sơ Ứng viên (cho Nhà Tuyển dụng):**
+    *   **Quyền Truy cập Hồ sơ:** Nhà Tuyển dụng chỉ có quyền xem các hồ sơ mà Ứng viên đã cho phép hiển thị hoặc các hồ sơ phù hợp với tiêu chí tìm kiếm đã được xác nhận.
+    *   **Bảo mật Dữ liệu:** Nghiêm cấm việc sao chép, lưu trữ bất hợp pháp hoặc chia sẻ hồ sơ Ứng viên với các bên thứ ba không có thẩm quyền.
+    *   **Việc sử dụng Dữ liệu Tìm kiếm:** Dữ liệu từ hoạt động tìm kiếm hồ sơ có thể được CareerZone sử dụng để phân tích và cải thiện dịch vụ.
+
+12. **Quy định về Tài khoản Người dùng: Đăng ký, Bảo mật và Quản lý:**
+    *   **Thông tin Đăng ký:** Yêu cầu cung cấp thông tin cá nhân chính xác và hợp lệ.
+    *   **Trách nhiệm Bảo mật Mật khẩu:** Người dùng chịu trách nhiệm hoàn toàn về việc bảo mật mật khẩu và mọi hoạt động diễn ra dưới tài khoản của mình.
+    *   **Cảnh báo Đăng nhập:** Thông báo cho người dùng khi có hoạt động đăng nhập đáng ngờ hoặc từ các thiết bị lạ.
+    *   **Quy trình Khôi phục Tài khoản:** Hướng dẫn chi tiết về cách khôi phục tài khoản khi quên mật khẩu hoặc gặp vấn đề truy cập.
+
+13. **Quy định về Việc Tạo và Duy trì Hồ sơ Ứng viên Chính xác:**
+    *   **Cam kết Trung thực:** Ứng viên cam kết mọi thông tin trong hồ sơ là sự thật, không sai lệch hoặc gây hiểu lầm.
+    *   **Cập nhật Định kỳ:** Khuyến khích cập nhật kinh nghiệm, kỹ năng mới, chứng chỉ để hồ sơ luôn phản ánh đúng năng lực.
+    *   **Trách nhiệm Cá nhân:** Ứng viên chịu trách nhiệm về hậu quả phát sinh từ việc cung cấp thông tin sai lệch trong hồ sơ.
+
+14. **Quy định về Việc Tạo và Duy trì Thông tin Công ty Minh bạch (cho Nhà Tuyển dụng):**
+    *   **Đăng ký Doanh nghiệp:** Yêu cầu cung cấp mã số thuế, giấy phép kinh doanh (nếu cần) để xác minh danh tính doanh nghiệp.
+    *   **Mô tả Doanh nghiệp:** Thông tin về lịch sử, tầm nhìn, sứ mệnh, văn hóa công ty phải trung thực và không gây hiểu lầm.
+    *   **Quản lý Thông tin Công ty:** Nhà Tuyển dụng có trách nhiệm cập nhật thông tin công ty khi có thay đổi.
+
+15. **Quy định về Việc Đăng Tin Tuyển dụng Chính xác và Đầy đủ:**
+    *   **Yêu cầu về Nội dung:** Bao gồm mô tả công việc chi tiết, yêu cầu về kỹ năng, kinh nghiệm, trình độ học vấn, quyền lợi, địa điểm làm việc, và thông tin liên hệ (hoặc cách thức ứng tuyển).
+    *   **Cấm Phân biệt đối xử:** Tuyệt đối cấm các yêu cầu tuyển dụng dựa trên giới tính, tuổi tác, dân tộc, tôn giáo, tình trạng hôn nhân, hoặc các yếu tố cá nhân khác không liên quan đến yêu cầu công việc.
+    *   **Tính Minh bạch về Lương:** Khuyến khích hoặc yêu cầu Nhà Tuyển dụng công bố khoảng lương (nếu có thể) để tăng tính minh bạch.
+
+16. **Quy định về Chất lượng Nội dung Đăng tải (Ứng viên & Nhà Tuyển dụng):**
+    *   **Nội dung Phù hợp:** Mọi nội dung đăng tải phải liên quan trực tiếp đến mục đích tuyển dụng và tìm kiếm việc làm.
+    *   **Cấm Nội dung Không phù hợp:** Bao gồm nội dung khiêu dâm, bạo lực, thù địch, kích động, vi phạm pháp luật, hoặc có tính chất xúc phạm.
+    *   **Kiểm duyệt:** CareerZone có quyền kiểm duyệt và loại bỏ mọi nội dung không tuân thủ các quy định này.
+
+17. **Quy định về Quyền Sở hữu Trí tuệ đối với Nội dung Đăng tải:**
+    *   **Quyền của Người dùng:** Người dùng giữ nguyên quyền sở hữu trí tuệ đối với nội dung mà họ đăng tải (hồ sơ, tin tuyển dụng).
+    *   **Giấy phép Sử dụng:** Bằng việc đăng tải nội dung lên CareerZone, người dùng cấp cho CareerZone một giấy phép không độc quyền, miễn phí bản quyền, toàn cầu, có thể chuyển nhượng để sử dụng, tái sản xuất, sửa đổi, xuất bản, phân phối nội dung đó trong phạm vi hoạt động của CareerZone.
+    *   **Tôn trọng Bản quyền:** Nghiêm cấm đăng tải nội dung thuộc bản quyền của người khác mà không có sự cho phép bằng văn bản từ chủ sở hữu bản quyền.
+
+18. **Quy định về Giới hạn Trách nhiệm của CareerZone:**
+    *   **Nền tảng Trung gian:** CareerZone hoạt động như một nền tảng trung gian và không chịu trách nhiệm về tính chính xác, đầy đủ, hợp pháp hoặc chất lượng của bất kỳ tin tuyển dụng, hồ sơ ứng viên, hoặc nội dung nào khác do người dùng đăng tải.
+    *   **Giao dịch giữa Người dùng:** CareerZone không tham gia vào các giao dịch, thỏa thuận hoặc hợp đồng lao động giữa Ứng viên và Nhà Tuyển dụng.
+    *   **Thiệt hại Phát sinh:** CareerZone không chịu trách nhiệm cho bất kỳ thiệt hại hoặc mất mát nào, dù trực tiếp hay gián tiếp, phát sinh từ việc sử dụng nền tảng, thông tin được cung cấp hoặc thiếu sót trên nền tảng.
+    *   **Bảo mật Thông tin:** Mặc dù CareerZone áp dụng các biện pháp bảo mật, không có hệ thống nào đảm bảo an toàn tuyệt đối, do đó CareerZone không cam kết bảo mật tuyệt đối thông tin người dùng.
+
+19. **Quy định về Hủy bỏ/Chấm dứt Dịch vụ và Tài khoản:**
+    *   **Quyền Hủy bỏ của Người dùng:** Người dùng có thể yêu cầu đóng tài khoản của mình bất kỳ lúc nào, với các điều kiện được quy định.
+    *   **Quyền Chấm dứt của CareerZone:** CareerZone có quyền tạm khóa hoặc chấm dứt vĩnh viễn tài khoản người dùng nếu vi phạm nghiêm trọng các điều khoản hoặc chính sách.
+    *   **Hậu quả của Việc Chấm dứt:** Việc chấm dứt tài khoản có thể dẫn đến việc mất quyền truy cập vào dữ liệu liên quan, và CareerZone có thể giữ lại một số thông tin theo quy định pháp luật hoặc chính sách lưu trữ.
+
+20. **Quy định về Việc Sửa đổi và Cập nhật Điều khoản Sử dụng:**
+    *   **Quyền Sửa đổi:** CareerZone bảo lưu quyền sửa đổi, bổ sung hoặc thay thế bất kỳ phần nào của Điều khoản Sử dụng này mà không cần thông báo trước cho người dùng.
+    *   **Thông báo Thay đổi:** Các thay đổi sẽ được đăng tải lên nền tảng. Việc người dùng tiếp tục sử dụng dịch vụ sau khi có thông báo về các thay đổi sẽ được hiểu là sự chấp nhận các điều khoản đã được sửa đổi.
+    *   **Ngày Hiệu lực:** Các điều khoản sửa đổi sẽ có hiệu lực kể từ ngày được đăng tải.
+
+21. **Quy định về Luật áp dụng và Giải quyết Tranh chấp:**
+    *   **Luật Điều chỉnh:** Mọi vấn đề liên quan đến việc sử dụng nền tảng CareerZone và các điều khoản này sẽ được điều chỉnh và giải thích theo pháp luật của nước Cộng hòa Xã hội Chủ nghĩa Việt Nam.
+    *   **Cơ quan Giải quyết Tranh chấp:** Mọi tranh chấp, mâu thuẫn phát sinh hoặc liên quan đến các điều khoản này sẽ được ưu tiên giải quyết thông qua thương lượng hòa giải. Nếu không đạt được thỏa thuận, tranh chấp sẽ được đưa ra giải quyết tại Tòa án có thẩm quyền tại Việt Nam.
+
+22. **Quy định về Việc Sử dụng Cookies và Công nghệ Theo dõi Tương tự:**
+    *   **Mục đích Sử dụng Cookies:** CareerZone sử dụng cookies để thu thập thông tin về cách người dùng truy cập và tương tác với nền tảng, nhằm cải thiện trải nghiệm, phân tích lưu lượng truy cập và cá nhân hóa nội dung.
+    *   **Loại Cookies:** Mô tả các loại cookies được sử dụng (ví dụ: cookies thiết yếu, cookies hiệu suất, cookies chức năng, cookies quảng cáo).
+    *   **Quản lý Cookies:** Người dùng có thể tùy chỉnh cài đặt trình duyệt của mình để từ chối hoặc xóa cookies. Tuy nhiên, điều này có thể ảnh hưởng đến một số chức năng của nền tảng.
+    *   **Bên thứ ba:** CareerZone có thể sử dụng các dịch vụ phân tích của bên thứ ba có thể đặt cookies trên thiết bị của người dùng.
+
+23. **Quy định về Phí Dịch vụ và Phương thức Thanh toán:**
+    *   **Cấu trúc Phí:** Chi tiết các loại phí áp dụng cho các dịch vụ trả phí (nếu có), bao gồm phí đăng tin, phí dịch vụ nâng cao, phí tài khoản doanh nghiệp.
+    *   **Phương thức Thanh toán:** Liệt kê các phương thức thanh toán được chấp nhận (thẻ tín dụng/ghi nợ, chuyển khoản ngân hàng, ví điện tử, v.v.).
+    *   **Xác nhận Thanh toán:** Quy trình xác nhận thanh toán thành công và thời điểm dịch vụ được kích hoạt.
+    *   **Hóa đơn và Chứng từ:** Cách thức Nhà Tuyển dụng nhận hóa đơn hoặc chứng từ thanh toán.
+
+24. **Quy định về Hoàn tiền và Điều kiện Hoàn tiền:**
+    *   **Chính sách Hoàn tiền:** Các điều kiện cụ thể mà theo đó CareerZone có thể xem xét yêu cầu hoàn tiền (ví dụ: dịch vụ không được cung cấp như cam kết, lỗi kỹ thuật nghiêm trọng).
+    *   **Quy trình Yêu cầu Hoàn tiền:** Hướng dẫn cách thức gửi yêu cầu hoàn tiền và thời gian xử lý.
+    *   **Ngoại lệ:** Các trường hợp không được hoàn tiền (ví dụ: người dùng thay đổi ý định, vi phạm điều khoản).
+
+25. **Quy định về Tuân thủ Pháp luật Việt Nam:**
+    *   **Phù hợp Luật:** Tất cả hoạt động trên nền tảng CareerZone phải tuân thủ Luật Lao động, Luật Giao dịch Điện tử, Luật Bảo vệ Quyền lợi Người tiêu dùng, Luật Sở hữu Trí tuệ và các văn bản pháp luật liên quan khác của Việt Nam.
+    *   **Trách nhiệm Pháp lý:** CareerZone không khuyến khích hoặc dung túng cho bất kỳ hành vi nào vi phạm pháp luật Việt Nam.
+
+26. **Quy định về Các Hành vi Bị Nghiêm cấm Tuyệt đối trên Nền tảng:**
+    *   **Spam:** Tạo nhiều tài khoản giả mạo, gửi tin nhắn hàng loạt không có sự đồng ý, tự động hóa hành vi đăng bài hoặc tương tác để thao túng hệ thống.
+    *   **Lừa đảo:** Đăng tin tuyển dụng giả mạo, yêu cầu tiền hoặc thông tin cá nhân nhạy cảm để đảm bảo việc làm, mạo danh công ty/người khác.
+    *   **Xúc phạm và Phỉ báng:** Đăng nội dung tấn công cá nhân, bôi nhọ danh dự, xúc phạm danh dự, uy tín của người khác hoặc tổ chức.
+    *   **Vi phạm Pháp luật:** Liên quan đến các hoạt động bất hợp pháp như cờ bạc, mại dâm, ma túy, rửa tiền, hoặc bất kỳ hành vi nào bị cấm bởi luật pháp Việt Nam.
+    *   **Can thiệp Hệ thống:** Cố gắng truy cập trái phép vào hệ thống, gây cản trở hoạt động bình thường, hoặc phát tán mã độc.
+    *   **Quảng cáo Không phép:** Đăng tải quảng cáo về sản phẩm, dịch vụ không liên quan đến lĩnh vực tuyển dụng hoặc không được CareerZone cho phép.
+
+27. **Quy định về Việc Sử dụng Dịch vụ cho Mục đích Cá nhân/Doanh nghiệp:**
+    *   **Ứng viên:** Chỉ sử dụng nền tảng để tìm kiếm cơ hội việc làm phù hợp với bản thân.
+    *   **Nhà Tuyển dụng:** Chỉ sử dụng nền tảng để đăng tin tuyển dụng và tìm kiếm ứng viên cho nhu cầu lao động thực tế của doanh nghiệp mình.
+    *   **Cấm Lạm dụng:** Không sử dụng nền tảng cho các mục đích kinh doanh cá nhân, tiếp thị chéo không liên quan, hoặc các hoạt động phi pháp.
+
+28. **Quy định về Việc Sao chép, Phân phối và Sử dụng Nội dung CareerZone:**
+    *   **Bảo vệ Nội dung Gốc:** Nghiêm cấm việc sao chép, phân phối, tái bản hoặc sử dụng bất kỳ phần nào của nội dung gốc trên nền tảng CareerZone (bao gồm giao diện, mã nguồn, bài viết, thông tin chung) mà không có sự cho phép rõ ràng bằng văn bản từ CareerZone.
+    *   **Sử dụng Nội dung Cá nhân:** Nội dung cá nhân do người dùng đăng tải chỉ được sử dụng bởi chính người dùng đó và những người dùng khác (theo quyền hạn cho phép) trên nền tảng CareerZone.
+
+29. **Quy định về Việc Sử dụng Nền tảng để Tương tác Giữa Người dùng:**
+    *   **Giao tiếp Trực tiếp:** Các tương tác giữa Ứng viên và Nhà Tuyển dụng thông qua nền tảng phải tuân thủ các quy tắc ứng xử và không được lạm dụng.
+    *   **Cấm Quấy rối:** Tuyệt đối cấm mọi hình thức quấy rối, đe dọa, hoặc tạo môi trường làm việc không an toàn thông qua các kênh giao tiếp trên nền tảng.
+
+30. **Quy định về Khả năng Tương thích của Thiết bị và Trình duyệt:**
+    *   **Yêu cầu Hệ thống Tối thiểu:** Mô tả các yêu cầu về trình duyệt web, hệ điều hành hoặc thiết bị di động để có trải nghiệm tốt nhất trên CareerZone.
+    *   **Hỗ trợ:** CareerZone sẽ cố gắng duy trì khả năng tương thích rộng rãi, nhưng không đảm bảo hoạt động hoàn hảo trên mọi cấu hình thiết bị và trình duyệt.
+
+**Phần II: Chính sách Bảo mật Thông tin Cá nhân (Khoảng 25 mục/chính sách chi tiết)**
+
+31. **Chính sách Bảo mật Thông tin Cá nhân Toàn diện:**
+    *   **Cam kết Bảo mật:** CareerZone cam kết bảo vệ quyền riêng tư và bảo mật thông tin cá nhân của tất cả người dùng theo đúng quy định của pháp luật Việt Nam, đặc biệt là Nghị định số 13/2023/NĐ-CP về bảo vệ dữ liệu cá nhân.
+    *   **Mục tiêu:** Đảm bảo an toàn, minh bạch và tuân thủ trong mọi hoạt động liên quan đến xử lý dữ liệu cá nhân.
+
+32. **Phạm vi Áp dụng của Chính sách Bảo mật:**
+    *   **Đối tượng:** Áp dụng cho tất cả các thông tin cá nhân mà CareerZone thu thập, xử lý, lưu trữ và chia sẻ từ Ứng viên, Nhà Tuyển dụng, đối tác và bất kỳ cá nhân nào khác tương tác với CareerZone.
+    *   **Hoạt động:** Bao gồm mọi hình thức thu thập, ghi, phân tích, lưu trữ, sửa đổi, công bố, phát tán, truy cập, thu hồi, mã hóa hoặc hủy bỏ dữ liệu cá nhân.
+
+33. **Loại Thông tin Cá nhân mà CareerZone Thu thập:**
+    *   **Thông tin nhận dạng:** Tên, ngày sinh, giới tính, số CMND/CCCD, quốc tịch.
+    *   **Thông tin liên hệ:** Địa chỉ email, số điện thoại, địa chỉ nhà/văn phòng.
+    *   **Thông tin chuyên môn:** Trình độ học vấn, kinh nghiệm làm việc, kỹ năng, chứng chỉ, dự án cá nhân, mục tiêu nghề nghiệp, CV/Resume.
+    *   **Thông tin sử dụng nền tảng:** Lịch sử tìm kiếm, lượt xem việc làm, các công việc đã lưu, ứng tuyển, tương tác trên nền tảng.
+    *   **Thông tin thanh toán:** Chi tiết thẻ tín dụng/ghi nợ, thông tin tài khoản ngân hàng (chỉ được thu thập và xử lý bởi bên cung cấp dịch vụ thanh toán thứ ba, CareerZone không lưu trữ trực tiếp các số liệu nhạy cảm này).
+    *   **Thông tin kỹ thuật:** Địa chỉ IP, loại trình duyệt, hệ điều hành, dữ liệu về việc sử dụng cookies.
+    *   **Thông tin khác:** Bất kỳ thông tin nào khác mà người dùng tự nguyện cung cấp hoặc CareerZone thu thập hợp pháp.
+
+34. **Mục đích Thu thập và Sử dụng Thông tin Cá nhân:**
+    *   **Cung cấp Dịch vụ:** Cung cấp các tính năng của nền tảng như tìm kiếm việc làm, đăng tin tuyển dụng, kết nối Ứng viên và Nhà Tuyển dụng.
+    *   **Cải thiện Trải nghiệm:** Phân tích hành vi người dùng để tối ưu hóa giao diện, tính năng và nội dung.
+    *   **Thông báo và Cập nhật:** Gửi thông báo về các việc làm mới phù hợp, các bản tin nghề nghiệp, cập nhật chính sách.
+    *   **Marketing và Quảng cáo:** Gửi thông tin về các dịch vụ, sản phẩm hoặc chương trình khuyến mãi của CareerZone hoặc các đối tác (chỉ khi có sự đồng ý).
+    *   **Hỗ trợ Khách hàng:** Giải đáp thắc mắc, xử lý yêu cầu và giải quyết các vấn đề phát sinh.
+    *   **Nghiên cứu và Phân tích:** Thực hiện các hoạt động nghiên cứu thị trường lao động, phân tích xu hướng.
+    *   **Tuân thủ Pháp luật:** Thực hiện các yêu cầu pháp lý, bao gồm xác minh danh tính, báo cáo cho cơ quan có thẩm quyền khi cần thiết.
+
+35. **Cơ sở Pháp lý cho Việc Xử lý Dữ liệu Cá nhân:**
+    *   **Sự đồng ý của Chủ thể Dữ liệu:** Hầu hết các hoạt động xử lý dữ liệu cá nhân dựa trên sự đồng ý rõ ràng, tự nguyện của người dùng khi họ đăng ký hoặc sử dụng dịch vụ.
+    *   **Thực hiện Hợp đồng:** Xử lý dữ liệu cần thiết để thực hiện các điều khoản trong hợp đồng dịch vụ giữa CareerZone và người dùng.
+    *   **Tuân thủ Nghĩa vụ Pháp lý:** Xử lý dữ liệu để đáp ứng các yêu cầu pháp luật, quy định hoặc yêu cầu từ cơ quan nhà nước có thẩm quyền.
+    *   **Lợi ích Hợp pháp:** Xử lý dữ liệu vì các lợi ích hợp pháp của CareerZone hoặc bên thứ ba, với điều kiện các lợi ích đó không lấn át quyền lợi hoặc tự do cơ bản của chủ thể dữ liệu.
+
+36. **Quyền của Chủ thể Dữ liệu Cá nhân (Ứng viên, Nhà Tuyển dụng):**
+    *   **Quyền được thông báo:** Về việc thu thập và xử lý dữ liệu cá nhân của mình.
+    *   **Quyền truy cập:** Yêu cầu xem, kiểm tra dữ liệu cá nhân đã được CareerZone thu thập.
+    *   **Quyền đồng ý:** Tự quyết định việc cung cấp dữ liệu cá nhân và mục đích sử dụng.
+    *   **Quyền chỉnh sửa:** Yêu cầu CareerZone chỉnh sửa, bổ sung dữ liệu cá nhân không chính xác hoặc không đầy đủ.
+    *   **Quyền thu hồi đồng ý:** Rút lại sự đồng ý đã cấp cho việc xử lý dữ liệu.
+    *   **Quyền xóa dữ liệu:** Yêu cầu xóa dữ liệu cá nhân (trừ trường hợp pháp luật yêu cầu lưu trữ).
+    *   **Quyền hạn chế xử lý:** Yêu cầu hạn chế xử lý dữ liệu trong một số trường hợp nhất định.
+    *   **Quyền cung cấp dữ liệu:** Yêu cầu CareerZone cung cấp dữ liệu cá nhân của mình để chuyển cho bên thứ ba.
+    *   **Quyền phản đối xử lý:** Phản đối việc xử lý dữ liệu cá nhân dựa trên các căn cứ nhất định.
+    *   **Quyền khiếu nại, tố cáo:** Khiếu nại hoặc tố cáo hành vi xử lý dữ liệu cá nhân vi phạm quy định.
+
+37. **Quyền Truy cập và Chỉnh sửa Thông tin Cá nhân:**
+    *   **Trang Quản lý Hồ sơ:** Người dùng có thể truy cập và chỉnh sửa hầu hết các thông tin cá nhân trực tiếp thông qua giao diện quản lý tài khoản trên nền tảng.
+    *   **Yêu cầu Thay đổi:** Đối với các thông tin không thể chỉnh sửa trực tiếp, người dùng có thể gửi yêu cầu đến bộ phận hỗ trợ của CareerZone.
+
+38. **Quyền Yêu cầu Xóa Thông tin Cá nhân (Right to Erasure/Forget):**
+    *   **Điều kiện Yêu cầu:** Người dùng có thể yêu cầu xóa dữ liệu cá nhân của mình nếu dữ liệu không còn cần thiết cho mục đích ban đầu hoặc người dùng đã rút lại sự đồng ý.
+    *   **Giới hạn Xóa:** CareerZone sẽ xóa dữ liệu cá nhân theo yêu cầu, trừ những trường hợp pháp luật yêu cầu CareerZone phải lưu trữ (ví dụ: hồ sơ giao dịch, thông tin tuân thủ pháp luật).
+
+39. **Quyền Hạn chế Xử lý Dữ liệu Cá nhân:**
+    *   **Trường hợp Áp dụng:** Người dùng có thể yêu cầu hạn chế xử lý dữ liệu trong các trường hợp: (a) tính chính xác của dữ liệu bị tranh cãi, (b) việc xử lý là bất hợp pháp và người dùng phản đối việc xóa dữ liệu, (c) dữ liệu không còn cần thiết cho mục đích thu thập nhưng người dùng yêu cầu lưu trữ để thiết lập, thực hiện hoặc bảo vệ các quyền pháp lý.
+
+40. **Quyền Di chuyển Dữ liệu Cá nhân (Data Portability):**
+    *   **Yêu cầu Di chuyển:** Người dùng có quyền yêu cầu CareerZone cung cấp dữ liệu cá nhân của họ dưới một định dạng có cấu trúc, thường được sử dụng và có thể đọc được bằng máy, để chuyển cho một bên kiểm soát dữ liệu khác.
+    *   **Định dạng Cung cấp:** Dữ liệu sẽ được cung cấp dưới định dạng có thể xử lý bằng máy (ví dụ: CSV, JSON) và được chuyển giao theo phương thức an toàn.
+
+41. **Quyền Phản đối Xử lý Dữ liệu Cá nhân:**
+    *   **Cơ sở Phản đối:** Người dùng có quyền phản đối việc xử lý dữ liệu cá nhân của mình vì những lý do liên quan đến tình huống cụ thể của họ, đặc biệt là khi việc xử lý dựa trên lợi ích hợp pháp của CareerZone hoặc bên thứ ba, hoặc cho mục đích tiếp thị trực tiếp.
+    *   **Hậu quả Phản đối:** Nếu phản đối là có cơ sở và không có lợi ích hợp pháp mạnh mẽ nào để tiếp tục xử lý, CareerZone sẽ ngừng xử lý dữ liệu cá nhân liên quan.
+
+42. **Quyền Không bị Phân tích Dữ liệu Tự động (Automated Decision Making):**
+    *   **Hạn chế:** Người dùng có quyền không phải chịu một quyết định chỉ dựa trên việc xử lý dữ liệu tự động, bao gồm cả việc lập hồ sơ (profiling), nếu quyết định đó tạo ra các hiệu ứng pháp lý đối với họ hoặc ảnh hưởng đáng kể đến họ một cách tương tự, trừ khi quyết định đó là cần thiết cho việc thực hiện một hợp đồng, được pháp luật cho phép, hoặc dựa trên sự đồng ý rõ ràng của họ.
+
+43. **Quy trình Tiếp nhận và Giải quyết Yêu cầu của Chủ thể Dữ liệu:**
+    *   **Kênh Tiếp nhận:** Các yêu cầu liên quan đến quyền của chủ thể dữ liệu có thể được gửi qua email hỗ trợ chính thức của CareerZone hoặc các kênh liên lạc đã được chỉ định.
+    *   **Thời hạn Phản hồi:** CareerZone cam kết phản hồi các yêu cầu trong thời hạn quy định của pháp luật (thường là không quá 30 ngày làm việc).
+    *   **Xác minh Danh tính:** CareerZone có thể yêu cầu xác minh danh tính của người yêu cầu để đảm bảo tính bảo mật.
+    *   **Quy trình Xử lý:** Yêu cầu sẽ được chuyển đến bộ phận chuyên trách để xem xét, xử lý và phản hồi.
+
+44. **Chính sách về Bảo mật Dữ liệu Nhạy cảm (nếu có):**
+    *   **Định nghĩa Dữ liệu Nhạy cảm:** Thông tin cá nhân tiết lộ nguồn gốc chủng tộc hoặc dân tộc, quan điểm chính trị, niềm tin tôn giáo hoặc tư tưởng, thành viên của nghiệp đoàn, dữ liệu di truyền, dữ liệu sinh trắc học, dữ liệu liên quan đến sức khỏe, cuộc sống tình dục hoặc xu hướng tình dục.
+    *   **Biện pháp Bảo vệ Tăng cường:** CareerZone sẽ áp dụng các biện pháp bảo mật bổ sung và yêu cầu sự đồng ý rõ ràng, riêng biệt cho việc thu thập và xử lý dữ liệu nhạy cảm (nếu có).
+
+45. **Chính sách về Việc Chia sẻ Thông tin Cá nhân với Bên thứ Ba:**
+    *   **Nguyên tắc Chia sẻ:** Thông tin cá nhân chỉ được chia sẻ với bên thứ ba khi có sự đồng ý rõ ràng của người dùng, hoặc khi cần thiết để cung cấp dịch vụ (ví dụ: nhà cung cấp dịch vụ thanh toán, nhà cung cấp dịch vụ lưu trữ dữ liệu, đối tác công nghệ có thỏa thuận bảo mật chặt chẽ).
+    *   **Yêu cầu Pháp lý:** Chia sẻ thông tin khi có yêu cầu hợp pháp từ cơ quan nhà nước có thẩm quyền.
+    *   **Đối tác:** Liệt kê các loại đối tác mà thông tin có thể được chia sẻ và mục đích cụ thể (ví dụ: các công ty tổ chức webinar nghề nghiệp, các nền tảng đào tạo).
+    *   **Biện pháp Bảo mật:** Đảm bảo các bên thứ ba có các biện pháp bảo mật tương đương và tuân thủ các quy định về bảo vệ dữ liệu.
+
+46. **Quy định về Việc Chuyển Dữ liệu Cá nhân Ra Nước Ngoài (nếu có):**
+    *   **Điều kiện Chuyển:** Việc chuyển dữ liệu cá nhân của người dùng Việt Nam ra nước ngoài chỉ được thực hiện khi có sự đồng ý của người dùng hoặc tuân thủ các quy định pháp luật về chuyển dữ liệu ra nước ngoài.
+    *   **Biện pháp Bảo vệ:** Các biện pháp bảo vệ dữ liệu phải được thiết lập để đảm bảo mức độ bảo vệ tương đương với luật pháp Việt Nam.
+
+47. **Thời gian Lưu trữ Dữ liệu Cá nhân:**
+    *   **Nguyên tắc:** Dữ liệu cá nhân chỉ được lưu trữ trong thời gian cần thiết để thực hiện các mục đích đã nêu trong chính sách bảo mật hoặc theo yêu cầu của pháp luật.
+    *   **Thời gian Cụ thể:** (ví dụ: Dữ liệu tài khoản sẽ được lưu trữ cho đến khi người dùng yêu cầu xóa hoặc trong vòng [X] năm sau lần hoạt động cuối cùng. Dữ liệu giao dịch sẽ được lưu trữ theo thời hạn quy định của pháp luật về kế toán và giao dịch).
+    *   **Xóa/Hủy Dữ liệu:** Sau khi hết thời hạn lưu trữ, dữ liệu cá nhân sẽ được xóa hoặc hủy một cách an toàn.
+
+48. **Các Biện pháp Kỹ thuật và Tổ chức Bảo mật Dữ liệu:**
+    *   **Biện pháp Kỹ thuật:** Mã hóa dữ liệu (encryption), tường lửa (firewalls), hệ thống phát hiện xâm nhập (intrusion detection systems), xác thực đa yếu tố (multi-factor authentication), kiểm soát truy cập dựa trên vai trò.
+    *   **Biện pháp Tổ chức:** Đào tạo nhân viên về bảo mật dữ liệu, quy trình xử lý sự cố, đánh giá định kỳ rủi ro bảo mật, kiểm soát truy cập nội bộ.
+
+49. **Trách nhiệm của Người dùng trong Việc Bảo mật Thông tin Cá nhân:**
+    *   **Bảo mật Tài khoản:** Giữ bí mật thông tin đăng nhập và không chia sẻ với bất kỳ ai.
+    *   **Cảnh giác:** Cẩn trọng với các email hoặc yêu cầu cung cấp thông tin cá nhân đáng ngờ.
+    *   **Cập nhật Phần mềm:** Đảm bảo trình duyệt và thiết bị của họ được cập nhật các bản vá bảo mật mới nhất.
+
+50. **Chính sách về Vi phạm Dữ liệu Cá nhân và Thông báo:**
+    *   **Định nghĩa:** Vi phạm dữ liệu cá nhân là bất kỳ hành vi truy cập, sử dụng hoặc tiết lộ dữ liệu cá nhân trái phép, làm mất, hỏng hoặc thay đổi dữ liệu cá nhân.
+    *   **Quy trình Xử lý Vi phạm:** Khi phát hiện vi phạm, CareerZone sẽ đánh giá mức độ nghiêm trọng, có biện pháp khắc phục ngay lập tức và thông báo cho cơ quan nhà nước có thẩm quyền và/hoặc chủ thể dữ liệu theo quy định pháp luật.
+
+51. **Quy định về Việc Sử dụng Dữ liệu Ẩn danh (Anonymized Data):**
+    *   **Định nghĩa:** Dữ liệu đã được xử lý để loại bỏ mọi thông tin nhận dạng cá nhân, khiến cho việc xác định danh tính của một cá nhân cụ thể là không thể thực hiện được hoặc chỉ với nỗ lực phi lý.
+    *   **Mục đích Sử dụng:** Dữ liệu ẩn danh có thể được CareerZone sử dụng cho các mục đích nghiên cứu, phân tích, thống kê, và cải thiện dịch vụ mà không bị ràng buộc bởi các quy định về bảo mật thông tin cá nhân.
+
+52. **Quy định về Việc Sử dụng Dữ liệu Tổng hợp (Aggregated Data):**
+    *   **Định nghĩa:** Dữ liệu đã được thu thập và kết hợp từ nhiều cá nhân, với các thông tin nhận dạng cá nhân đã bị loại bỏ hoặc tổng hợp hóa sao cho không còn liên quan đến một cá nhân cụ thể.
+    *   **Mục đích Sử dụng:** Dữ liệu tổng hợp có thể được chia sẻ với các bên thứ ba (ví dụ: báo cáo ngành, đối tác nghiên cứu) để phân tích xu hướng thị trường.
+
+53. **Trách nhiệm của Bộ phận Bảo vệ Dữ liệu (Data Protection Officer - DPO) (Nếu có):**
+    *   **Vai trò:** Giám sát việc tuân thủ các quy định bảo vệ dữ liệu cá nhân, cung cấp tư vấn về các vấn đề bảo mật, và là đầu mối liên lạc với cơ quan quản lý.
+    *   **Nhiệm vụ:** Đảm bảo các quy trình nội bộ và các hoạt động xử lý dữ liệu tuân thủ pháp luật.
+
+54. **Cơ chế Giám sát và Đánh giá Tuân thủ Chính sách Bảo mật:**
+    *   **Kiểm tra Định kỳ:** Thực hiện các cuộc đánh giá và kiểm toán nội bộ định kỳ để đảm bảo các biện pháp bảo mật và quy trình xử lý dữ liệu tuân thủ chính sách và pháp luật.
+    *   **Cập nhật Chính sách:** Đánh giá và cập nhật chính sách bảo mật dựa trên các thay đổi trong hoạt động kinh doanh, công nghệ hoặc quy định pháp luật.
+
+55. **Thông tin Liên hệ cho các Vấn đề Bảo mật Dữ liệu:**
+    *   **Email/Số điện thoại:** Cung cấp địa chỉ email và/hoặc số điện thoại liên hệ cụ thể cho các câu hỏi, yêu cầu hoặc báo cáo liên quan đến bảo mật dữ liệu cá nhân.
+
+**Phần III: Chính sách Chống Lạm dụng, Gian lận và Vi phạm Nguyên tắc (Khoảng 20 mục/chính sách chi tiết)**
+
+56. **Chính sách Chống Spam và Lạm dụng Tài khoản:**
+    *   **Mục tiêu:** Ngăn chặn mọi hành vi gửi thư rác, tin nhắn không mong muốn, tạo tài khoản giả mạo hoặc sử dụng các công cụ tự động để khai thác nền tảng CareerZone.
+    *   **Định nghĩa Spam:** Bao gồm gửi tin nhắn quảng cáo hoặc nội dung không liên quan đến người nhận mà không có sự đồng ý, tạo nhiều tài khoản để thao túng hệ thống, sử dụng bot để đăng tin hoặc tương tác tự động.
+
+57. **Định nghĩa Hành vi Spam và Lạm dụng Tài khoản:**
+    *   **Tạo Tài khoản Giả mạo:** Tạo nhiều tài khoản với mục đích giả mạo danh tính, tránh bị phát hiện hoặc thực hiện các hành vi lạm dụng.
+    *   **Gửi Tin nhắn Hàng loạt Không Được Yêu cầu:** Sử dụng chức năng nhắn tin để gửi nội dung quảng cáo, tiếp thị hoặc thông điệp không liên quan đến đa số người dùng mà không có sự đồng ý của họ.
+    *   **Sử dụng Bot/Script:** Tự động hóa các hành động như đăng tin, gửi tin nhắn, tìm kiếm hồ sơ, hoặc tương tác trên nền tảng mà không có sự can thiệp thủ công của người dùng.
+    *   **Thao túng Kết quả Tìm kiếm:** Sử dụng các kỹ thuật không trung thực để đẩy tin tuyển dụng hoặc hồ sơ lên vị trí ưu tiên.
+
+58. **Quy trình Phát hiện và Xác định Hành vi Spam/Lạm dụng:**
+    *   **Hệ thống Giám sát:** Triển khai các công cụ và thuật toán để phát hiện các mẫu hành vi bất thường, lượng lớn tin nhắn hoặc đăng ký tài khoản đáng ngờ.
+    *   **Báo cáo từ Người dùng:** Tiếp nhận và xử lý các báo cáo về hành vi spam hoặc lạm dụng từ cộng đồng người dùng.
+    *   **Điều tra và Xác minh:** Tiến hành điều tra nội bộ để xác minh tính chính xác của các báo cáo hoặc dấu hiệu bất thường.
+
+59. **Biện pháp Xử lý đối với Hành vi Spam Tài khoản (Ví dụ: Tạo nhiều tài khoản):**
+    *   **Cảnh báo:** Gửi cảnh báo cho người dùng vi phạm.
+    *   **Giới hạn Chức năng:** Tạm thời khóa chức năng đăng tin, nhắn tin hoặc tìm kiếm.
+    *   **Xóa Tài khoản:** Vô hiệu hóa vĩnh viễn các tài khoản liên quan đến hành vi spam.
+    *   **Chặn Địa chỉ IP/Thiết bị:** Có thể áp dụng các biện pháp kỹ thuật để ngăn chặn việc tạo tài khoản mới từ các nguồn đã vi phạm.
+
+60. **Biện pháp Xử lý đối với Hành vi Gửi Tin nhắn Rác/Không mong muốn:**
+    *   **Xóa Tin nhắn:** Gỡ bỏ các tin nhắn vi phạm.
+    *   **Cảnh báo:** Gửi cảnh báo cho người gửi.
+    *   **Giới hạn Quyền Nhắn tin:** Tạm thời hoặc vĩnh viễn hạn chế khả năng nhắn tin của tài khoản vi phạm.
+
+61. **Biện pháp Xử lý đối với Hành vi Quảng cáo Trái phép/Không liên quan:**
+    *   **Gỡ bỏ Nội dung:** Xóa các tin tuyển dụng hoặc bài đăng chứa quảng cáo không được phép.
+    *   **Cảnh báo Nhà Tuyển dụng:** Thông báo cho Nhà Tuyển dụng về vi phạm quy định quảng cáo.
+    *   **Khóa Tài khoản:** Đối với các vi phạm tái diễn hoặc nghiêm trọng.
+
+62. **Biện pháp Xử lý đối với Hành vi Sử dụng Bot/Script Tự động:**
+    *   **Phát hiện và Chặn:** Sử dụng các biện pháp kỹ thuật để phát hiện và chặn các bot hoặc script tự động.
+    *   **Xóa Dữ liệu Tạo ra:** Xóa mọi dữ liệu hoặc hành động được tạo ra bởi bot/script vi phạm.
+    *   **Xử lý Tài khoản:** Áp dụng các biện pháp xử lý tương tự như spam tài khoản.
+
+63. **Chính sách Chống Lừa đảo (Anti-Fraud Policy):**
+    *   **Mục tiêu:** Ngăn chặn mọi hành vi gian lận, lừa đảo nhằm mục đích trục lợi cá nhân hoặc gây hại cho người dùng khác trên nền tảng.
+    *   **Phạm vi:** Bao gồm lừa đảo tài chính, lừa đảo thông tin, lừa đảo việc làm, và các hình thức gian lận khác.
+
+64. **Định nghĩa Hành vi Lừa đảo:**
+    *   **Tin Tuyển dụng Giả mạo:** Đăng tải thông tin tuyển dụng không có thật, mô tả sai lệch về công việc, công ty hoặc quyền lợi.
+    *   **Yêu cầu Tiền/Thông tin Nhạy cảm:** Yêu cầu Ứng viên chuyển tiền trước để "đảm bảo việc làm", "chi phí đào tạo ban đầu", hoặc yêu cầu cung cấp thông tin ngân hàng/CCCD/mật khẩu không vì mục đích tuyển dụng hợp pháp.
+    *   **Mạo danh:** Mạo danh công ty hoặc cá nhân để thực hiện hành vi lừa đảo.
+    *   **Thao túng Kết quả:** Sử dụng các phương thức gian lận để ảnh hưởng đến thứ hạng tìm kiếm hoặc khả năng hiển thị của tin tuyển dụng/hồ sơ.
+
+65. **Quy trình Tiếp nhận và Xử lý Tin báo Lừa đảo:**
+    *   **Kênh Báo cáo:** Cung cấp kênh báo cáo dễ dàng cho người dùng khi họ phát hiện hoặc nghi ngờ có hành vi lừa đảo.
+    *   **Ưu tiên Xử lý:** Các báo cáo về lừa đảo được ưu tiên xử lý khẩn cấp.
+    *   **Điều tra và Xác minh:** Thu thập bằng chứng, tiến hành điều tra nội bộ để xác minh tính xác thực của báo cáo.
+
+66. **Biện pháp Ngăn chặn Tin Tuyển dụng Giả mạo:**
+    *   **Xác minh Nhà Tuyển dụng:** Yêu cầu thông tin xác minh (mã số thuế, thông tin liên hệ doanh nghiệp) khi đăng ký tài khoản Nhà Tuyển dụng.
+    *   **Kiểm duyệt Nội dung:** Rà soát nội dung tin tuyển dụng để phát hiện các dấu hiệu bất thường.
+    *   **Khuyến khích Cảnh giác:** Thông báo cho người dùng về các dấu hiệu nhận biết tin tuyển dụng giả mạo.
+
+67. **Biện pháp Ngăn chặn Yêu cầu Chuyển tiền/Thông tin nhạy cảm trái phép:**
+    *   **Cảnh báo Người dùng:** Thường xuyên đưa ra cảnh báo về việc không bao giờ chia sẻ thông tin tài chính hoặc mật khẩu nhạy cảm qua nền tảng.
+    *   **Giám sát Giao tiếp:** Có thể áp dụng các bộ lọc ngôn ngữ để phát hiện các yêu cầu nghi vấn về tài chính hoặc thông tin cá nhân nhạy cảm trong các cuộc trò chuyện.
+    *   **Xử lý Tài khoản Vi phạm:** Khóa hoặc xóa các tài khoản có hành vi yêu cầu tiền hoặc thông tin nhạy cảm trái phép.
+
+68. **Biện pháp Xử lý Tài khoản liên quan đến Hoạt động Lừa đảo:**
+    *   **Khóa Ngay lập tức:** Các tài khoản có bằng chứng rõ ràng về hành vi lừa đảo sẽ bị khóa ngay lập tức.
+    *   **Xóa Vĩnh viễn:** Các tài khoản này sẽ bị xóa vĩnh viễn khỏi hệ thống.
+    *   **Báo cáo Cơ quan Chức năng:** Trong các trường hợp nghiêm trọng, CareerZone có thể báo cáo vụ việc cho các cơ quan nhà nước có thẩm quyền.
+
+69. **Chính sách Chống Mạo danh (Anti-Impersonation Policy):**
+    *   **Mục tiêu:** Ngăn chặn mọi hành vi mạo danh cá nhân hoặc tổ chức nhằm mục đích lừa đảo, gây hiểu lầm hoặc làm tổn hại uy tín.
+
+70. **Định nghĩa Hành vi Mạo danh Công ty/Cá nhân:**
+    *   **Mạo danh Công ty:** Sử dụng tên, logo, hình ảnh hoặc mô tả của một công ty có thật nhưng không có sự ủy quyền hoặc liên kết chính thức.
+    *   **Mạo danh Cá nhân:** Sử dụng tên, hình ảnh, thông tin liên hệ của một người khác để tạo hồ sơ hoặc thực hiện giao tiếp.
+
+71. **Biện pháp Xác minh Danh tính Nhà Tuyển dụng:**
+    *   **Quy trình Đăng ký:** Yêu cầu cung cấp thông tin doanh nghiệp chính thức (mã số thuế, tên công ty, địa chỉ đăng ký).
+    *   **Xác minh Thông tin:** CareerZone có thể tiến hành xác minh thông tin doanh nghiệp thông qua các nguồn công khai hoặc yêu cầu bổ sung giấy tờ.
+    *   **Biểu tượng Xác minh:** Cung cấp biểu tượng xác minh (verified badge) cho các công ty đã qua xác minh.
+
+72. **Biện pháp Xử lý khi phát hiện Mạo danh:**
+    *   **Gỡ bỏ Nội dung Mạo danh:** Yêu cầu người dùng sửa đổi hoặc gỡ bỏ nội dung mạo danh.
+    *   **Khóa Tài khoản:** Nếu người dùng tiếp tục mạo danh sau cảnh báo.
+    *   **Báo cáo:** Có thể báo cáo hành vi mạo danh theo các quy định pháp luật liên quan.
+
+73. **Chính sách Chống Thao túng Kết quả Tìm kiếm/Xếp hạng:**
+    *   **Cấm Các Kỹ thuật:** Nghiêm cấm mọi nỗ lực sử dụng các kỹ thuật gian lận (ví dụ: tạo traffic ảo, sử dụng bot để tăng lượt xem/tương tác) nhằm thao túng thứ hạng hiển thị trên CareerZone.
+    *   **Thuật toán Minh bạch:** CareerZone sử dụng thuật toán để hiển thị kết quả tìm kiếm và xếp hạng, và các thuật toán này dựa trên các yếu tố thực tế và minh bạch.
+
+74. **Quy định về Việc Báo cáo Hành vi Lạm dụng và Gian lận:**
+    *   **Trách nhiệm Cộng đồng:** Khuyến khích tất cả người dùng tích cực báo cáo bất kỳ hoạt động nào họ cho là lạm dụng, gian lận hoặc vi phạm các chính sách của CareerZone.
+    *   **Quy trình Báo cáo:** Cung cấp các kênh báo cáo dễ dàng truy cập và quy trình rõ ràng để xử lý các báo cáo này.
+
+75. **Quy trình Tiếp nhận và Phản hồi Báo cáo Vi phạm:**
+    *   **Phân loại Báo cáo:** Các báo cáo sẽ được phân loại theo mức độ nghiêm trọng và loại vi phạm.
+    *   **Điều tra:** Tiến hành điều tra nội bộ để xác minh báo cáo.
+    *   **Phản hồi:** Thông báo cho người báo cáo về kết quả xử lý (trong phạm vi có thể tiết lộ) và có hành động thích hợp đối với người vi phạm.
+
+**Phần III: Chính sách Nội dung và Bản quyền (Khoảng 10 mục/chính sách chi tiết)**
+
+76. **Chính sách về Nội dung Do Người dùng Tạo (User-Generated Content - UGC):**
+    *   **Trách nhiệm của Người dùng:** Người dùng hoàn toàn chịu trách nhiệm về nội dung mà họ đăng tải lên nền tảng CareerZone (bao gồm hồ sơ, CV, tin tuyển dụng, bình luận, bài viết).
+    *   **Quyền và Nghĩa vụ:** Người dùng phải đảm bảo nội dung tuân thủ tất cả các chính sách, điều khoản và pháp luật hiện hành.
+    *   **Kiểm duyệt:** CareerZone có quyền xem xét, biên tập, từ chối hoặc gỡ bỏ bất kỳ nội dung nào mà họ cho là vi phạm hoặc không phù hợp.
+
+77. **Quyền và Trách nhiệm đối với Nội dung Ứng viên Tạo (Hồ sơ, CV):**
+    *   **Quyền Sở hữu:** Ứng viên giữ quyền sở hữu trí tuệ đối với hồ sơ và CV của mình.
+    *   **Nội dung Phù hợp:** Hồ sơ và CV phải phản ánh chính xác kinh nghiệm, kỹ năng và trình độ học vấn.
+    *   **Cấm Sai lệch:** Nghiêm cấm việc khai báo gian dối, làm giả bằng cấp hoặc kinh nghiệm.
+
+78. **Quyền và Trách nhiệm đối với Nội dung Nhà Tuyển dụng Tạo (Tin tuyển dụng, Thông tin công ty):**
+    *   **Quyền Sở hữu:** Nhà Tuyển dụng giữ quyền sở hữu đối với nội dung tin tuyển dụng và thông tin công ty mà họ đăng tải.
+    *   **Nội dung Minh bạch:** Tin tuyển dụng và thông tin công ty phải chính xác, trung thực và không gây hiểu lầm.
+    *   **Trách nhiệm Pháp lý:** Nhà Tuyển dụng chịu trách nhiệm về tính chính xác và hợp pháp của các tin tuyển dụng mà họ đăng tải, bao gồm tuân thủ luật lao động.
+
+79. **Quy định về Việc Sử dụng Nội dung từ Bên thứ Ba (Yêu cầu Giấy phép):**
+    *   **Tuân thủ Bản quyền:** Người dùng không được đăng tải nội dung thuộc bản quyền của bên thứ ba (ví dụ: hình ảnh, văn bản, video) mà không có sự cho phép rõ ràng hoặc giấy phép hợp pháp từ chủ sở hữu bản quyền.
+    *   **Trách nhiệm Người dùng:** Người dùng chịu trách nhiệm về mọi thiệt hại phát sinh do việc vi phạm bản quyền của họ.
+
+80. **Chính sách Chống Vi phạm Bản quyền và Sở hữu Trí tuệ (DMCA Compliance):**
+    *   **Tuân thủ Luật Sở hữu Trí tuệ:** CareerZone hoạt động theo các quy định của Luật Sở hữu Trí tuệ Việt Nam và các hiệp định quốc tế liên quan.
+    *   **Tiếp nhận Thông báo Vi phạm:** CareerZone có quy trình tiếp nhận thông báo về việc vi phạm bản quyền từ chủ sở hữu hoặc đại diện hợp pháp của họ.
+
+81. **Quy trình Xử lý Thông báo Vi phạm Bản quyền (Notice and Takedown):**
+    *   **Tiếp nhận Thông báo:** Khi nhận được thông báo hợp lệ về việc vi phạm bản quyền, CareerZone sẽ xem xét và có hành động thích hợp, bao gồm gỡ bỏ nội dung bị cáo buộc vi phạm.
+    *   **Thông báo cho Người dùng Vi phạm:** Thông báo cho người dùng đã đăng tải nội dung vi phạm về việc nội dung đó đã bị gỡ bỏ và có thể bị hạn chế quyền truy cập.
+    *   **Phản hồi về Việc Gỡ bỏ:** Người dùng có thể gửi phản hồi hoặc khiếu nại về việc gỡ bỏ nội dung nếu họ tin rằng nội dung đó không vi phạm bản quyền.
+
+82. **Quy định về Việc Sử dụng Logo và Thương hiệu CareerZone:**
+    *   **Bảo vệ Thương hiệu:** Logo, tên thương hiệu, và các tài sản trí tuệ khác của CareerZone là tài sản độc quyền của CareerZone.
+    *   **Cấp phép Sử dụng:** Việc sử dụng logo hoặc thương hiệu CareerZone cho mục đích quảng bá hoặc liên kết chỉ được thực hiện khi có sự cho phép bằng văn bản rõ ràng từ CareerZone.
+
+83. **Quy định về Việc Sử dụng Thương hiệu của Bên thứ Ba trên Nền tảng:**
+    *   **Tuân thủ Thương hiệu:** Khi Nhà Tuyển dụng sử dụng tên hoặc logo của công ty mình, họ phải đảm bảo rằng họ có quyền sử dụng các thương hiệu đó và việc sử dụng này tuân thủ các quy định về nhãn hiệu.
+    *   **Cấm Mạo danh Thương hiệu:** Nghiêm cấm việc sử dụng thương hiệu của bên thứ ba mà không có sự cho phép hoặc nhằm mục đích mạo danh.
+
+84. **Chính sách về Nội dung Bị Cấm (Prohibited Content Policy):**
+    *   **Danh mục Cấm:** Bao gồm nội dung phỉ báng, bôi nhọ, phân biệt đối xử, khiêu dâm, bạo lực, đe dọa, quảng cáo lừa đảo, hoặc bất kỳ nội dung nào vi phạm pháp luật hoặc các quy định của CareerZone.
+    *   **Rà soát và Gỡ bỏ:** CareerZone có quyền rà soát và gỡ bỏ bất kỳ nội dung nào vi phạm chính sách này.
+
+85. **Quy định về Việc Đánh giá và Gỡ bỏ Nội dung Vi phạm:**
+    *   **Cơ chế Đánh giá:** Đội ngũ kiểm duyệt của CareerZone sẽ đánh giá các nội dung bị báo cáo vi phạm.
+    *   **Hậu quả:** Nội dung vi phạm có thể bị gỡ bỏ, tài khoản người dùng bị cảnh cáo, tạm khóa hoặc xóa tùy thuộc vào mức độ nghiêm trọng của vi phạm.
+
+**Phần IV: Chính sách Vận hành, Tuân thủ và Hỗ trợ (Khoảng 15 mục/chính sách chi tiết)**
+
+86. **Chính sách Vận hành Nền tảng CareerZone:**
+    *   **Đảm bảo Hoạt động:** Cam kết duy trì sự ổn định, an toàn và hiệu suất cao cho nền tảng CareerZone.
+    *   **Bảo trì Định kỳ:** Lên lịch bảo trì hệ thống để cập nhật, vá lỗi và nâng cấp hạ tầng, với thông báo trước cho người dùng khi có thể.
+
+87. **Quy trình Đảm bảo Chất lượng Dịch vụ (Service Level Agreement - SLA):**
+    *   **Cam kết Thời gian Hoạt động:** Đặt ra mục tiêu về thời gian hoạt động của nền tảng (ví dụ: 99.5% thời gian).
+    *   **Thời gian Phản hồi Hỗ trợ:** Đặt ra các chỉ số hiệu suất cho bộ phận hỗ trợ khách hàng (ví dụ: phản hồi yêu cầu trong vòng [X] giờ).
+    *   **Khắc phục Sự cố:** Quy trình xử lý và khắc phục sự cố kỹ thuật một cách nhanh chóng và hiệu quả.
+
+88. **Quy trình Hỗ trợ Khách hàng (Ứng viên và Nhà Tuyển dụng):**
+    *   **Kênh Hỗ trợ:** Cung cấp nhiều kênh hỗ trợ như email, điện thoại, chat trực tuyến, và mục Câu hỏi Thường gặp (FAQ).
+    *   **Phân loại Yêu cầu:** Phân loại và chuyển tiếp yêu cầu hỗ trợ đến đúng bộ phận chuyên môn.
+    *   **Đào tạo Nhân viên Hỗ trợ:** Đảm bảo đội ngũ hỗ trợ có kiến thức đầy đủ về sản phẩm và các chính sách.
+
+89. **Quy trình Tiếp nhận và Giải quyết Khiếu nại:**
+    *   **Kênh Khiếu nại:** Cung cấp kênh chính thức để người dùng gửi các khiếu nại về dịch vụ hoặc hành vi của người dùng khác.
+    *   **Quy trình Xử lý:** Tiếp nhận, ghi nhận, điều tra và phản hồi khiếu nại một cách công bằng và kịp thời.
+
+90. **Quy định về Việc Sử dụng Phản hồi của Người dùng để Cải tiến:**
+    *   **Thu thập Phản hồi:** Khuyến khích người dùng gửi phản hồi, góp ý về nền tảng và dịch vụ.
+    *   **Phân tích và Áp dụng:** Phân tích các phản hồi này để xác định các lĩnh vực cần cải thiện và ưu tiên các cập nhật tính năng.
+
+91. **Chính sách Tuân thủ Pháp luật về Lao động:**
+    *   **Nội dung Tuyển dụng:** Đảm bảo các tin tuyển dụng không vi phạm Luật Lao động, bao gồm các quy định về tuổi lao động, điều kiện làm việc, chấm dứt hợp đồng, và các quyền lợi của người lao động.
+    *   **Trách nhiệm Nhà Tuyển dụng:** Nhắc nhở Nhà Tuyển dụng về trách nhiệm tuân thủ luật lao động khi đăng tin và trong quá trình tuyển dụng.
+
+92. **Chính sách về Việc Bảo mật Thông tin Giao dịch (nếu có):**
+    *   **An toàn Thanh toán:** Đảm bảo các giao dịch thanh toán được thực hiện trên nền tảng an toàn, tuân thủ các tiêu chuẩn bảo mật ngành (ví dụ: PCI DSS nếu áp dụng).
+    *   **Bảo mật Dữ liệu Thanh toán:** Các thông tin thanh toán nhạy cảm chỉ được xử lý bởi các cổng thanh toán đáng tin cậy và tuân thủ các quy định bảo mật.
+
+93. **Quy định về Chương trình Liên kết/Đối tác:**
+    *   **Thiết lập Quan hệ:** Các điều khoản và điều kiện cho các chương trình liên kết hoặc hợp tác với các bên thứ ba.
+    *   **Sử dụng Thương hiệu:** Quy định về việc sử dụng thương hiệu CareerZone trong các hoạt động của đối tác.
+
+94. **Quy trình Kiểm toán và Đánh giá Tuân thủ Pháp lý:**
+    *   **Kiểm toán Nội bộ:** Thực hiện kiểm toán định kỳ để đánh giá mức độ tuân thủ các chính sách và pháp luật.
+    *   **Đánh giá Rủi ro:** Liên tục đánh giá các rủi ro pháp lý và kinh doanh có thể phát sinh.
+
+95. **Chính sách về Trách nhiệm Xã hội của Doanh nghiệp (CSR - CareerZone):**
+    *   **Cam kết Cộng đồng:**careerZone cam kết đóng góp cho cộng đồng thông qua các hoạt động hỗ trợ giáo dục, phát triển kỹ năng nghề nghiệp hoặc các sáng kiến xã hội khác.
+    *   **Hoạt động Bền vững:** Áp dụng các nguyên tắc hoạt động bền vững và có trách nhiệm.
+
+96. **Quy trình Cập nhật và Thông báo về Thay đổi Chính sách:**
+    *   **Theo dõi Pháp luật:** Liên tục cập nhật các thay đổi trong luật pháp liên quan đến hoạt động của CareerZone.
+    *   **Cập nhật Chính sách:** Sửa đổi và bổ sung các chính sách để đảm bảo tuân thủ và phản ánh đúng hoạt động của nền tảng.
+    *   **Thông báo Rõ ràng:** Thông báo về mọi thay đổi quan trọng trong chính sách cho người dùng thông qua các kênh truyền thông của CareerZone.
+
+97. **Chính sách về Khủng hoảng Truyền thông và Quản lý Rủi ro:**
+    *   **Kế hoạch Ứng phó:** Xây dựng kế hoạch ứng phó với các tình huống khủng hoảng có thể xảy ra (ví dụ: vi phạm dữ liệu, sự cố hệ thống lớn, khủng hoảng uy tín).
+    *   **Truyền thông Minh bạch:** Duy trì sự minh bạch trong giao tiếp với người dùng và công chúng trong các tình huống khủng hoảng.
+
+98. **Quy định về Việc Lưu trữ Hồ sơ và Nhật ký Hệ thống:**
+    *   **Lưu trữ Dữ liệu:** Lưu trữ hồ sơ người dùng, tin tuyển dụng, nhật ký hệ thống và các dữ liệu hoạt động khác theo thời gian quy định của pháp luật và nhu cầu vận hành.
+    *   **Bảo mật Dữ liệu Lưu trữ:** Đảm bảo an toàn và bảo mật cho tất cả dữ liệu được lưu trữ.
+
+99. **Quy trình Tích hợp và Chia sẻ Dữ liệu với Các Nền tảng Khác (nếu có):**
+    *   **Đối tác Công nghệ:** Quy định về việc tích hợp dữ liệu với các đối tác công nghệ (ví dụ: hệ thống quản lý ứng viên - ATS, nền tảng đánh giá năng lực).
+    *   **Thỏa thuận Bảo mật:** Các thỏa thuận này phải bao gồm các điều khoản chặt chẽ về bảo mật và sử dụng dữ liệu.
+
+100. **Quy định về Việc Tuyển dụng và Quản lý Nhân sự Nội bộ của CareerZone:**
+    *   **Nhân viên là Người thi hành:** Nhân viên của CareerZone có trách nhiệm hiểu và tuân thủ tất cả các chính sách đã ban hành.
+    *   **Đào tạo Nội bộ:** Cung cấp chương trình đào tạo liên tục cho nhân viên về các chính sách, quy định pháp luật và các thực tiễn tốt nhất về bảo mật và tuân thủ.
+    *   **Giám sát Tuân thủ:** Có cơ chế giám sát và đánh giá việc tuân thủ chính sách của nhân viên.

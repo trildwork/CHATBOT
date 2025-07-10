@@ -1,0 +1,26 @@
+POST http://localhost:8000/api/v1/chat
+Content-Type: application/json
+
+{
+  "query": "Chào bạn, tôi muốn tìm hiểu về các chính sách của công ty.",
+  "history": []
+}
+
+###
+
+POST http://localhost:8000/api/v1/chat
+Content-Type: application/json
+
+{
+  "query": "tóm tắt chúng",
+  "history": [
+    {
+      "role": "user",
+      "content": "Chào bạn, tôi muốn tìm hiểu về các chính sách của công ty."
+    },
+    {
+      "role": "assistant",
+      "content": "Chào bạn, tôi là CareerConnect AI. Tôi có thể giúp gì cho bạn về các chính sách của công ty?"
+    }
+  ]
+}
