@@ -6,9 +6,11 @@ langchain
 langchain-community
 langchain-core
 langchain-google-genai
+langchain-openai
 langchain-mongodb
 pymongo
 unstructured
 python-docx
 kafka-python
 tqdm
+langchain_openai
