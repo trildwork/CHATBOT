@@ -55,7 +55,7 @@ Một dự án chatbot AI được thiết kế để hỗ trợ các vấn đ�
 
 ## 🚀 Sử dụng
 
-1. **Nạp dữ liệu ban đầu**
+1. **Nạp dữ liệu ban đầu** (chỉ thực hiện một lần)
 
    ```bash
    python scripts/initial_load.py

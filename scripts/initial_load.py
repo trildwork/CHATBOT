@@ -1,4 +1,5 @@
 # FILE: scripts/initial_load.py
+import json
 import os
 import sys
 from typing import List, Optional
@@ -42,6 +43,10 @@ class Job(BaseModel):
 
 def load_policies():
     """Tải, chia nhỏ và nạp dữ liệu chính sách."""
+    # kiểm tra đã nnapj dữ liệu jobs hay chưa
+    if db["policies_vector"].count_documents({}) > 0:
+        print("Dữ liệu chính sách đã được nạp trước đó. Bỏ qua quá trình nạp lại.")
+        return
     print("--- Bắt đầu xử lý file chính sách ---")
     loader = TextLoader("data/policies.txt", encoding="utf-8")
     docs = loader.load()
@@ -60,48 +65,99 @@ def load_policies():
     print("--- Hoàn thành nạp dữ liệu chính sách ---")
 
 
+def _get_value(data, key, sub_key=None):
+    """
+    Helper function to safely extract a value from a potentially nested dictionary.
+    """
+    value = data.get(key)
+    if isinstance(value, dict) and sub_key:
+        return value.get(sub_key)
+    return value
+
+
 def load_jobs():
     """
-    Nạp dữ liệu jobs.
-    Tự động trích xuất và làm giàu metadata cho jobs bằng LLM.
+    Nạp dữ liệu jobs từ file JSON, xử lý các định dạng dữ liệu không nhất quán.
     """
+
+    # kiểm tra đã nnapj dữ liệu jobs hay chưa
+    if db["jobs_vector"].count_documents({}) > 0:
+        print("Dữ liệu jobs đã được nạp trước đó. Bỏ qua quá trình nạp lại.")
+        return
+    print("--- Bắt đầu xử lý file jobs ---")
     jobs_collection = db["jobs_vector"]
     jobs_collection.delete_many({})
 
-    raw_job_data = [
-        {"title": "Senior Python Developer", "page_content": "Senior Python Developer. Yêu cầu 5 năm kinh nghiệm với Django, Flask. Ưu tiên có kinh nghiệm với DevOps. Xây dựng các hệ thống backend và API.", "jobId": "job_001"},
-        {"title": "Junior Frontend Developer",
-            "page_content": "Junior Frontend Developer (ReactJS). Yêu cầu kiến thức về HTML, CSS, JavaScript và React. Xây dựng giao diện người dùng cho ứng dụng web.", "jobId": "job_002"},
-        {"title": "Marketing Manager", "page_content": "Marketing Manager. Lập kế hoạch và triển khai các chiến dịch marketing online. Có kinh nghiệm về SEO, SEM, và Google Analytics. Quản lý đội ngũ marketing.", "jobId": "job_003"},
-        {"title": "Data Scientist", "page_content": "Data Scientist. Cần có kinh nghiệm làm việc với các mô hình Machine Learning, Deep Learning. Sử dụng thành thạo Python và các thư viện như Scikit-learn, TensorFlow.", "jobId": "job_004"},
-        {"title": "Nhân viên Kế toán Tổng hợp",
-            "page_content": "Cần tuyển Kế toán tổng hợp có kinh nghiệm 2 năm. Thành thạo phần mềm MISA, Excel. Chịu trách nhiệm báo cáo thuế, báo cáo tài chính. Cẩn thận, trung thực.", "jobId": "job_005"}
-    ]
+    # 1. Đọc dữ liệu từ file JSON
+    try:
+        with open("data/jobs.json", "r", encoding="utf-8") as f:
+            raw_job_data = json.load(f)
+        print(f"Đã đọc được {len(raw_job_data)} jobs từ file JSON.")
+    except FileNotFoundError:
+        print("Lỗi: Không tìm thấy file data/jobs.json")
+        return
+    except json.JSONDecodeError:
+        print("Lỗi: File data/jobs.json không có định dạng hợp lệ.")
+        return
 
     enriched_job_docs = []
     for job_data in raw_job_data:
-        # Kết hợp metadata đã trích xuất với dữ liệu gốc
+        # 2. Tạo nội dung trang (page_content)
+        page_content = f"Tiêu đề: {job_data.get('title', '')}\n"
+        page_content += f"Mô tả: {job_data.get('description', '')}\n"
+        page_content += f"Yêu cầu: {job_data.get('requirements', '')}\n"
+        page_content += f"Phúc lợi: {job_data.get('benefits', '')}"
+
+        # 3. Tạo metadata, xử lý các định dạng không nhất quán
+        job_id = _get_value(job_data, "_id", "$oid")
+        deadline = _get_value(job_data, "deadline", "$date")
+        created_at = _get_value(job_data, "createdAt", "$date")
+        updated_at = _get_value(job_data, "updatedAt", "$date")
+        recruiter_id = _get_value(job_data, "recruiterProfileId", "$oid")
+        min_salary = _get_value(job_data, "minSalary", "$numberDecimal")
+        max_salary = _get_value(job_data, "maxSalary", "$numberDecimal")
+
         full_metadata = {
             "source": "jobs",
-            "title": job_data["title"],
-            "jobId": job_data["jobId"]
+            "jobId": str(job_id) if job_id else "",
+            "title": job_data.get("title", ""),
+            "category": job_data.get("category", ""),
+            "experience": job_data.get("experience", ""),
+            "type": job_data.get("type", ""),
+            "workType": job_data.get("workType", ""),
+            "status": job_data.get("status", ""),
+            "approved": job_data.get("approved", False),
+            "location_city": _get_value(job_data, "location", "city"),
+            "location_district": _get_value(job_data, "location", "district"),
+            "minSalary": float(min_salary) if min_salary is not None else None,
+            "maxSalary": float(max_salary) if max_salary is not None else None,
+            "deadline": deadline,
+            "createdAt": created_at,
+            "updatedAt": updated_at,
+            "recruiterProfileId": str(recruiter_id) if recruiter_id else ""
         }
+        # Loại bỏ các khóa có giá trị None
+        full_metadata = {k: v for k,
+                         v in full_metadata.items() if v is not None}
 
-        # Tạo Document hoàn chỉnh
-        doc = Document(
-            page_content=job_data["page_content"], metadata=full_metadata)
+        # 4. Tạo Document hoàn chỉnh
+        doc = Document(page_content=page_content, metadata=full_metadata)
         enriched_job_docs.append(doc)
 
-    # 4. Nạp các documents đã được làm giàu vào Vector Store
-    MongoDBAtlasVectorSearch.from_documents(
-        documents=enriched_job_docs,
-        embedding=embedding_model,
-        collection=jobs_collection,
-        index_name="jobs_vector_index"
-    )
-    print(f"Đã nạp {len(enriched_job_docs)} jobs đã được làm giàu metadata.")
+    # 5. Nạp các documents đã được làm giàu vào Vector Store
+    if enriched_job_docs:
+        MongoDBAtlasVectorSearch.from_documents(
+            documents=enriched_job_docs,
+            embedding=embedding_model,
+            collection=jobs_collection,
+            index_name="jobs_vector_index"
+        )
+        print(
+            f"Đã nạp {len(enriched_job_docs)} jobs đã được làm giàu metadata.")
+    else:
+        print("Không có job nào để nạp.")
 
-    print("--- Hoàn thành nạp dữ liệu ---")
+    print("--- Hoàn thành nạp dữ liệu jobs ---")
 
 
 if __name__ == "__main__":
