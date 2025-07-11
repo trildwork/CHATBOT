@@ -12,6 +12,9 @@ from config import settings
 from core.db import db
 from core.llm import embedding_model
 
+# True nếu dùng Cloud, False nếu local
+use_sasl = settings.KAFKA_SECURITY_ENABLED
+
 
 class JobPayload(BaseModel):
     jobId: str
@@ -142,12 +145,35 @@ def delete_job(job_id: str):
 
 
 def start_consumer():
-    consumer = KafkaConsumer(
-        settings.KAFKA_JOB_EVENTS_TOPIC,
-        bootstrap_servers=settings.KAFKA_BOOTSTRAP_SERVERS,
+    common_config = dict(
+        bootstrap_servers=settings.KAFKA_BOOTSTRAP_SERVERS.split(','),
         value_deserializer=lambda m: json.loads(m.decode('utf-8')),
         auto_offset_reset='earliest',
-        group_id='careerzone_rag_consumer_group'  # Thêm group_id là best practice
+        group_id='careerzone_rag_consumer_group'
+    )
+    if use_sasl:
+        common_config.update({
+            'security_protocol': 'SASL_SSL',  # Bật cả SASL và SSL
+            'sasl_mechanism': settings.KAFKA_SASL_MECHANISM,
+            'sasl_plain_username': settings.KAFKA_SASL_USERNAME,
+            'sasl_plain_password': settings.KAFKA_SASL_PASSWORD
+        })
+    # consumer = KafkaConsumer(
+    #     settings.KAFKA_JOB_EVENTS_TOPIC,
+    #     bootstrap_servers=settings.KAFKA_BOOTSTRAP_SERVERS.split(','),
+    #     value_deserializer=lambda m: json.loads(m.decode('utf-8')),
+    #     auto_offset_reset='earliest',
+    #     group_id='careerzone_rag_consumer_group',
+
+    #     security_protocol='SASL_SSL',  # Bật cả SASL và SSL
+
+    #     sasl_mechanism="SCRAM-SHA-256",
+    #     sasl_plain_username=settings.KAFKA_SASL_USERNAME,
+    #     sasl_plain_password=settings.KAFKA_SASL_PASSWORD
+    # )
+    consumer = KafkaConsumer(
+        settings.KAFKA_JOB_EVENTS_TOPIC,
+        **common_config
     )
     print("Kafka consumer đã sẵn sàng. Đang chờ sự kiện job...")
 
