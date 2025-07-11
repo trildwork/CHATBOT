@@ -5,7 +5,7 @@ Một dự án chatbot AI được thiết kế để hỗ trợ các vấn đ�
 ## 🏛️ Sơ đồ kiến trúc hệ thống
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/ef1ffa9c-1528-4fa1-9e35-17b479cd821b" width="666" alt="Architecture" />
+  <img src="https://github.com/user-attachments/assets/ef1ffa9c-1528-4fa1-9e35-17b479cd821b" width="466" alt="Architecture" />
 </div>
 
 ## 🛠️ Cài đặt
