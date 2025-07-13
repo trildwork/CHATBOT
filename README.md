@@ -55,16 +55,35 @@ Một dự án chatbot AI được thiết kế để hỗ trợ các vấn đ�
 
 ## 🚀 Sử dụng
 
+### Cách 1: Khởi động tất cả services cùng lúc (Khuyến nghị)
+
+**Dùng script Python:**
+```bash
+python run_all.py
+```
+
+**Dùng script đơn giản:**
+```bash
+python start.py
+```
+
+**Dùng Batch file (Windows):**
+```bash
+start_all.bat
+```
+
+### Cách 2: Khởi động từng service riêng lẻ
+
 1. **Nạp dữ liệu ban đầu** (chỉ thực hiện một lần)
 
    ```bash
-   python scripts/initial_load.py
+   python -m scripts.initial_load
    ```
 
-2. **Chạy Kafka Consumer**
+2. **Chạy Kafka Consumer**)
 
    ```bash
-   python workers/kafka_consumer.py
+   python -m workers.kafka_consumer
    ```
 
 3. **Khởi động API server**
@@ -73,9 +92,20 @@ Một dự án chatbot AI được thiết kế để hỗ trợ các vấn đ�
    uvicorn api.main:app --reload
    ```
 
+4. **Chạy cleanup scheduler** (tùy chọn)
+
+   ```bash
+   python -m scripts.cleanup_scheduler
+   ```
+
    API sẽ sẵn sàng tại `http://localhost:8000`.
 
-4. **Gửi yêu cầu đến API**
+### Services được khởi động:
+- 🌐 **API Server**: `http://localhost:8000` - REST API cho chatbot
+- 📨 **Kafka Consumer**: Lắng nghe và xử lý job events từ Kafka
+- ⏰ **Cleanup Scheduler**: Tự động dọn dẹp jobs hết hạn hàng ngày lúc 2:00 AM
+
+### Gửi yêu cầu đến API
 
    Ví dụ với `curl`:
 

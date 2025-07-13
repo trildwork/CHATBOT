@@ -1,6 +1,8 @@
 # FILE: services/rag_service.py
 
 import json
+import logging
+import sys
 from datetime import datetime, timezone
 from operator import itemgetter
 from typing import Any, AsyncGenerator, Dict, List, Optional
@@ -24,6 +26,16 @@ from pydantic import BaseModel, Field
 from core.db import db
 from core.llm import embedding_model, llm
 from schemas.common import ChatMessage
+
+# Setup logging for RAG service
+logger = logging.getLogger(__name__)
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.StreamHandler(sys.stdout)
+    ]
+)
 
 
 # 1. ĐỊNH NGHĨA PYDANTIC MODEL CHO FILTERS (Không đổi)
@@ -52,7 +64,7 @@ class MultiSourceRetriever(BaseRetriever):
         destination = result.get('destination')
 
         if destination and destination in self.retrievers:
-            print(f"Router chose (sync): {destination}")
+            logger.info(f"Router chose (sync): {destination}")
             chosen_retriever = self.retrievers[destination]
             docs = chosen_retriever.get_relevant_documents(
                 query, callbacks=run_manager.get_child())
@@ -60,7 +72,8 @@ class MultiSourceRetriever(BaseRetriever):
                 doc.metadata["source_retriever"] = destination
             return docs
 
-        print("Router could not choose a destination (sync). Querying all retrievers.")
+        logger.warning(
+            "Router could not choose a destination (sync). Querying all retrievers.")
         all_docs = []
         for name, retriever in self.retrievers.items():
             docs = retriever.get_relevant_documents(
@@ -75,14 +88,15 @@ class MultiSourceRetriever(BaseRetriever):
         destination = result.get('destination')
 
         if destination and destination in self.retrievers:
-            print(f"Router chose (async): {destination}")
+            logger.info(f"Router chose (async): {destination}")
             chosen_retriever = self.retrievers[destination]
             docs = await chosen_retriever.ainvoke(query, config={"callbacks": run_manager.get_child()})
             for doc in docs:
                 doc.metadata["source_retriever"] = destination
             return docs
 
-        print("Router could not choose a destination (async). Querying all retrievers.")
+        logger.warning(
+            "Router could not choose a destination (async). Querying all retrievers.")
         all_docs = []
         for name, retriever in self.retrievers.items():
             docs = await retriever.ainvoke(query, config={"callbacks": run_manager.get_child()})
@@ -94,6 +108,8 @@ class MultiSourceRetriever(BaseRetriever):
 
 # 2. XÂY DỰNG GET_RETRIEVER (Không đổi)
 def get_retriever(job_filters: Optional[JobFilters] = None):
+    logger.info(f"get_retriever() called with filters: {job_filters}")
+
     # Lấy thời gian hiện tại để lọc các job hết hạn
     current_time_iso = datetime.now(timezone.utc).isoformat()
 
@@ -116,7 +132,11 @@ def get_retriever(job_filters: Optional[JobFilters] = None):
         }
     )
 
-    print(f"Applying real-time filter for active jobs: {mongo_filter}")
+    logger.info(f"Applying real-time filter for active jobs: {mongo_filter}")
+    logger.info(f"Current time used for filtering: {current_time_iso}")
+
+    # Force flush để đảm bảo log hiển thị ngay
+    sys.stdout.flush()
 
     # Phần còn lại của hàm giữ nguyên...
     vs_policies = MongoDBAtlasVectorSearch(
@@ -158,6 +178,12 @@ async def process_query_stream(query: str, history: List[ChatMessage]) -> AsyncG
     """
     Xử lý câu hỏi, bao gồm trích xuất filter, RAG, và trả về cả câu trả lời lẫn danh sách job ID.
     """
+    logger.info(f"process_query_stream() called with query: '{query}'")
+    logger.info(f"History length: {len(history)}")
+
+    # Force flush logs
+    sys.stdout.flush()
+
     # # 1. Trích xuất filter từ câu hỏi (không đổi)
     # filter_extraction_prompt = PromptTemplate.from_template(
     #     """Dựa vào câu hỏi của người dùng, hãy trích xuất các tiêu chí lọc cho việc làm.
@@ -170,7 +196,12 @@ async def process_query_stream(query: str, history: List[ChatMessage]) -> AsyncG
     # print(f"Extracted job filters: {extracted_filters}")
 
     # retriever = get_retriever(job_filters=extracted_filters)
+    logger.info("Creating retriever...")
     retriever = get_retriever()
+    logger.info("Retriever created successfully")
+
+    # Force flush logs
+    sys.stdout.flush()
 
     # 2. Xác định câu hỏi độc lập nếu có lịch sử trò chuyện
     _template = """Với lịch sử trò chuyện sau đây và một câu hỏi theo sau, hãy diễn đạt lại câu hỏi đó thành một câu hỏi độc lập.
@@ -181,7 +212,7 @@ async def process_query_stream(query: str, history: List[ChatMessage]) -> AsyncG
 
     input_query = query
     if history:
-        print("History found, creating standalone question.")
+        logger.info("History found, creating standalone question.")
         standalone_question_chain = (
             {"question": itemgetter(
                 "question"), "chat_history": lambda x: _format_chat_history(x["chat_history"])}
@@ -190,11 +221,12 @@ async def process_query_stream(query: str, history: List[ChatMessage]) -> AsyncG
             | StrOutputParser()
         )
         input_query = await standalone_question_chain.ainvoke({"question": query, "chat_history": history})
-        print(f"Standalone question: {input_query}")
+        logger.info(f"Standalone question: {input_query}")
 
     # 3. Lấy tài liệu (jobs, policies, etc.) MỘT LẦN DUY NHẤT
+    logger.info("Retrieving documents...")
     retrieved_docs = await retriever.ainvoke(input_query)
-    # print(f"Retrieved {(retrieved_docs)} documents.")
+    logger.info(f"Retrieved {len(retrieved_docs)} documents")
     context_str = format_docs(retrieved_docs)
 
     # 4. Tạo và stream câu trả lời từ LLM
