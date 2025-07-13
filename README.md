@@ -1,6 +1,6 @@
 # CareerZone AI CHATBOT
 
-Một dự án chatbot AI được thiết kế để hỗ trợ các vấn đề liên quan đến định hướng nghề nghiệp và các chính sách của công ty. Chatbot này tận dụng sức mạnh của các mô hình ngôn ngữ lớn (Large Language Models – LLM) cùng kỹ thuật Retrieval‑Augmented Generation (RAG) để cung cấp những câu trả lời chính xác, phù hợp ngữ cảnh từ cơ sở tri thức đã định sẵn.
+Một dự án chatbot AI được thiết kế để hỗ trợ các vấn đề liên quan đến định hướng nghề nghiệp và các chính sách của website. Chatbot này tận dụng sức mạnh của các mô hình ngôn ngữ lớn (Large Language Models – LLM) cùng kỹ thuật Retrieval‑Augmented Generation (RAG) để cung cấp những câu trả lời chính xác, phù hợp ngữ cảnh từ cơ sở tri thức đã định sẵn.
 
 ## 🏛️ Sơ đồ kiến trúc hệ thống
 
@@ -80,7 +80,7 @@ start_all.bat
    python -m scripts.initial_load
    ```
 
-2. **Chạy Kafka Consumer**)
+2. **Chạy Kafka Consumer** (nếu cần đồng bộ dữ liệu)
 
    ```bash
    python -m workers.kafka_consumer
